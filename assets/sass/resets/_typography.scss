@@ -1,0 +1,162 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family     : $main-font;
+    color           : $text-color;
+    font-weight     : $font-regular;
+    font-size       : 62.5%;
+    line-height     : 1.75;
+    background-color: #fff;
+  }
+  
+  a {
+    font-weight: $font-semibold;
+    font-size  : 0.95rem;
+    color      : $text-color;
+    text-decoration: none;
+  
+    &:focus,
+    &:hover {
+      color          : $text-color;
+      text-decoration: underline;
+    }
+  }
+  
+  .paragraph,
+  address,
+  input,
+  label,
+  p,
+  select,
+  table,
+  textarea {
+    font-size  : 0.938rem;
+    font-weight: $font-regular;
+    line-height: 1.6;
+    color      : $text-color;
+    font-family: $main-font;
+  }
+  
+  .paragraph,
+  p {
+    margin-bottom: 33px;
+    line-height: 1.98;
+    &.lead {
+      font-size: 18px;
+    }
+  
+    a {
+      font-size      : inherit;
+      color          : inherit;
+      text-decoration: underline;
+      font-weight    : inherit;
+    }
+  
+    b,
+    strong {
+      font-weight: $font-bold;
+    }
+  }
+  
+  .lead {
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: $font-regular;
+      color      : $text-color;
+    }
+  }
+  
+  // h1,
+  // h2,
+  h3,
+  h5,
+  h6 {
+    color         : $text-color;
+    font-family   : $main-font;
+    margin-bottom : 15px;
+    text-transform: none;
+    line-height   : 1.1;
+  }
+  h4{
+    font-family: $secondary-font;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: $text-color-dark;
+  }
+  
+  .heading-1,
+  h1 {
+    font-size  : 3rem;
+    font-weight: $font-bold;
+    font-family: $secondary-font;
+    line-height: 1.1;
+    margin-bottom: 33px;
+    @media (max-width: 992px) {
+      font-size: 2.1rem;
+      
+    }
+  }
+  
+  .heading-2,
+  h2 {
+    font-size: 2.188rem;
+    font-weight: $font-bold;
+    font-family: $main-font;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    @media (max-width: 400px) {
+      font-size: 1.9rem;
+      
+    }
+  }
+  
+  .heading-3,
+  h3 {
+    // font-size  : 1.953rem;
+    font-size: 1.563rem;
+    font-weight: $font-bold;
+  }
+  
+  .heading-4,
+  h4 {  
+    // font-size  : 1.563rem;
+    font-size  : 3.3rem;
+    font-weight: $font-bold;
+  }
+  
+  .heading-5,
+  h5 {
+    font-size  : 1.25rem;
+    font-weight: $font-semibold;
+  }
+  
+  .heading-6,
+  h6 {
+    font-size  : 1rem;
+    font-weight: $font-semibold;
+  }
+  
+  .widget-title {
+    text-transform: capitalize;
+    font-weight   : $font-bold;
+  }
+  
+  b,
+  th {
+    font-weight: $font-bold;
+    color      : $text-color;
+  }
+  
+  .text_small,
+  small {
+    font-size: 0.833rem;
+  }
+  
+  .white-txt {
+    p, ul li, ol li, h6 {
+      color: #fff;
+    }
+  }

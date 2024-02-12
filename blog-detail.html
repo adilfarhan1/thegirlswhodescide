@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog view</title>
+    <link rel="icon" type="image/png" href="assets/image/ic_site.png">
+    <!------fa-icons----->
+    <script src="https://kit.fontawesome.com/90fcbd2aa0.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="assets/sass/thegirl.css">
+    <!-- Slick-slider CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css"> -->
+
+</head>
+<body>
+   <header class="main-header">
+    <div class="header-top">
+       <div class="logo-widget">
+        <img src="assets/image/logo.png" >
+        <div class="line-aline">
+            <svg class="headline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><linearGradient id="gradientLine0554" gradientUnits="userSpaceOnUse" x1="2" y1="22.2466" x2="498" y2="22.2466"><stop offset="0" class="page_speed_1256334550"></stop><stop offset="1" class="page_speed_1764944391"></stop></linearGradient><path class="headline-path" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="url(#gradientLine0554)"><animate attributeName="d" dur="15s" repeatCount="indefinite" values="M2.5,24.2c18.3,0.5,41.5,0.9,74.9,0c75-2,91.1-8.2,141.4-8.3c66.8-0.2,72.4,10.6,137.3,12.5,c41.6,1.2,89-1.7,141.4-12.5; M2.5,24.2c18.3,0.5,37.4-7.4,70.7-8.3c75-2,103.6,16.8,153.9,16.6C294,32.3,295.3,14,360.2,15.9,c41.6,1.2,84.9,10.7,137.3,0; M2.5,24.2c18.3,0.5,41.5,9.2,74.9,8.3c75-2,99.4-8.2,149.7-8.3C294,24,312,5.6,376.9,7.6 c41.6,1.2,68.2,19.1,120.6,8.3; M2.5,24.2c18.3,0.5,37.4-7.4,70.7-8.3c75-2,103.6,16.8,153.9,16.6C294,32.3,295.3,14,360.2,15.9 c41.6,1.2,84.9,10.7,137.3,0; M2.5,24.2c18.3,0.5,41.5,0.9,74.9,0c75-2,91.1-8.2,141.4-8.3c66.8-0.2,72.4,10.6,137.3,12.5,c41.6,1.2,89-1.7,141.4-12.5;"></animate></path></svg>
+        </div>
+    </div> 
+    </div>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container navbar-main">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="logo-block">
+                <div class="logo-widget">
+                    <img src="assets/image/logo.png" >
+                    <div class="line-aline">
+                        <svg class="headline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><stop offset="0" class="page_speed_1256334550"></stop><stop offset="1" class="page_speed_1764944391"></stop></linearGradient><path class="headline-path" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="url(#gradientLine0554)"><animate attributeName="d" dur="15s" repeatCount="indefinite" values="M2.5,24.2c18.3,0.5,41.5,0.9,74.9,0c75-2,91.1-8.2,141.4-8.3c66.8-0.2,72.4,10.6,137.3,12.5,c41.6,1.2,89-1.7,141.4-12.5; M2.5,24.2c18.3,0.5,37.4-7.4,70.7-8.3c75-2,103.6,16.8,153.9,16.6C294,32.3,295.3,14,360.2,15.9,c41.6,1.2,84.9,10.7,137.3,0; M2.5,24.2c18.3,0.5,41.5,9.2,74.9,8.3c75-2,99.4-8.2,149.7-8.3C294,24,312,5.6,376.9,7.6 c41.6,1.2,68.2,19.1,120.6,8.3; M2.5,24.2c18.3,0.5,37.4-7.4,70.7-8.3c75-2,103.6,16.8,153.9,16.6C294,32.3,295.3,14,360.2,15.9 c41.6,1.2,84.9,10.7,137.3,0; M2.5,24.2c18.3,0.5,41.5,0.9,74.9,0c75-2,91.1-8.2,141.4-8.3c66.8-0.2,72.4,10.6,137.3,12.5,c41.6,1.2,89-1.7,141.4-12.5;"></animate></path></svg>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                    <li class="nav-item ">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="vlog.html" class="nav-link">Vlog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   </header>
+
+   <div class="bg-clg">
+    <div class="container">
+        <div class="blog-detail-container">
+            <div class="blog-detail-view">
+                <img src="assets/image/blog_detail_img.png" class="blog-detail-img">
+                <h2>This is what hope tastes like.</h2>
+                <p class="p-small mrn">BLOGS by #thegirlwhodecides 05Jan, 2023</p>
+                <p>Sipping water from one of those tall glasses, she thought to herself about the design of the poster. The poster that needs to go on social media calling out expressions of interest from humans in Melbourne. She believed this will integrate into a podcast series in February. Then again, she thought about the design of the website for her renovation business, something that is still fresh as a daisy.</p>
+                <p>While her side hustle with the media was on a pause, she ran into a mutual friend from the media at lunch this afternoon. That is shockingly unusual for Melbourne, running into friends in such a large city. So then she thought to herself, is this the universe sent sign for her to uncaused the media gig as well?<br>
+                Accompanied by this chaotic brain, she rocked up to her day job as an engineering advisor wearing her flowery pink dress.</p>
+            </div>
+            <div class="side-nav">
+                <div class="nav-box">
+                    <h3>LOOKING FOR SOMETHING...</h3>
+                    <div class="search-all">
+                        <input type="text" class="form-control" id="search" placeholder="Search..">
+                        <img src="assets/image/search_ic.svg">
+                    </div>
+                </div>
+
+                <div class="nav-box center-aline">
+                    <img src="assets/image/side_nav_img.png" class="slide-nav-img">
+                    <img src="assets/image/logo.png" class="nav-logo">
+                </div>
+
+                <div class="nav-box">
+                   <h3>LATEST POSTS</h3>
+                   <div class="post-list">
+                        <div class="img-wrap list-img1"></div>
+                        <div class="txt-block">
+                            <p class="p-s-bold">What is Lorem Ipsum?</p>
+                            <p class="p-small">a long established fact that a reader will be distracted by the readable</p>
+                            <p class="date-p">05Jan, 2023</p>
+                        </div>
+                   </div>
+
+                   <div class="post-list">
+                        <div class="img-wrap list-img1"></div>
+                        <div class="txt-block">
+                            <p class="p-s-bold">What is Lorem Ipsum?</p>
+                            <p class="p-small">a long established fact that a reader will be distracted by the readable</p>
+                            <p class="date-p">05Jan, 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="post-list">
+                            <div class="img-wrap list-img1"></div>
+                            <div class="txt-block">
+                                <p class="p-s-bold">What is Lorem Ipsum?</p>
+                                <p class="p-small">a long established fact that a reader will be distracted by the readable</p>
+                                <p class="date-p">05Jan, 2023</p>
+                            </div>
+                    </div>
+                    
+                </div>
+
+                <div class="nav-box pink-box">
+                    <h3>SUBSCRIBE TO BLOG VIA EMAIL</h3>
+                    <input type="text" class="form-control" id="email" placeholder="Email address">
+                    <div class="btn-wrap center-aline">
+                        <a href="#" class="btn site-button">Subscribe</a>
+                    </div>
+                </div>
+                <div class="nav-box">
+                    <h3>CONNECT US</h3>
+
+                        <ul>
+                            <li class="red"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="dark-blue"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="pink"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="blue"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+
+
+                </div>
+            </div>
+           
+        </div>
+   </div>
+   </div>
+   
+
+   
+
+
+
+
+
+   <footer class="main-footer">
+    <div class="footer-body">
+        <ul class="footer-link">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a href="vlog.html" class="nav-link">Vlog</a>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+
+
+<div class="social-links">
+    <ul>
+        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+</div>
+
+
+<div class="scrollTop-widget">
+    <div class="scrollTop"><i class="fa-solid fa-arrow-up"></i></div>
+</div>
+
+
+
+
+
+    <script src="assets/js/jquery.min.js">
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/slick.min.js"></script> -->
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <script>
+        // Start marquee
+        $('.marquee_text').marquee({
+            direction: 'left',
+            duration: 50000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true
+        });
+    </script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+    </script>
+    
+</body>
+</html>

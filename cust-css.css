@@ -1,0 +1,111 @@
+h1 {
+    color: #000000;
+    font-size: 1.688rem;
+    font-weight: 700;
+  }
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  .more-connect .all-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  @media (max-width: 992px) {
+    .more-connect .all-link {
+      display: block;
+    }
+  }
+  @media (max-width: 992px) {
+    .more-connect li {
+      margin-bottom: 20px;
+    }
+  }
+  .more-connect .st2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  @media (max-width: 576px) {
+    .more-connect .st2 {
+      display: block;
+    }
+  }
+  .more-connect ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .more-connect ul li {
+    max-width: 170px;
+    width: auto;
+  }
+  .more-connect ul li img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .bg-color {
+    background: #F6F6F6;
+  }
+  .bg-color h2 {
+    color: #000000;
+  }
+  
+  h5 {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 992px) {
+    h5 {
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+  }
+  
+  .list-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin: 25px 0px;
+    position: relative;
+  }
+  @media (max-width: 992px) {
+    .list-card {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  .list-card a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .list-card .list-profile {
+    margin-right: 10px;
+    max-width: 119px;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    max-height: 119px;
+  }
+  @media (max-width: 992px) {
+    .list-card .list-profile {
+      max-width: 80px;
+    }
+  }
+  .list-card p {
+    margin-bottom: 0px;
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
